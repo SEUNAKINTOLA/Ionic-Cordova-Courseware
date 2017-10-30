@@ -1,0 +1,67 @@
+<ion-view title="Forum" id="page4">
+    <ion-content padding="'true'" class="has-header">
+
+        
+        <form class="list" >
+            <ion-list>
+                <label class="item item-select" id="payment-select1" name="selectcourse">
+                    <span class="input-label">Select Course</span>
+                    <select ng-model="user.coursecode">
+                        <option value="F1001">F1001 Introduction to Management</option>
+                        <option value="F1002">F1002 Writing and Communication Skills</option>
+                        <option value="F1003">F1003 Introduction to Economics</option>
+                        <option value="F1004">F1004 Introduction to Accounting</option>
+                        <option value="F1005">F1005 Fundamentals of psychology and Sociology</option>
+                        <option value="F2001"> F2001 Introduction to Personnel Management and Industrial Relations</option>
+                        <option value="F2002">F2002 Nigeria Business Environment</option>
+                        <option value="F2003">F2003 Business Law</option>
+                        <option value="F2004">F2004 Computer Applications and Management Information System</option>
+                        <option value="F2005">F2005 Government and Nigeria Legal System</option>
+                        <option value="INT1001">INT1001 Business Administration</option>
+                        <option value="INT1002">INT1002 Advance Economics</option>
+                        <option value="INT1003">INT1003 Accounting and Finance for Managers</option>
+                        <option value="INT1004">INT1004 Business Statistics and Social Research Methods</option>
+                        <option value="INT2001">INT2001 Training and Development</option>
+                        <option value="INT2002">INT2002 Public Administration</option>
+                        <option value="INT2003">INT2003 Manpower Planning</option>
+                        <option value="INT2004">INT2004 Corporate Management and Administration</option>
+                        <option value="PE1001">PE1001 Operational Research</option>
+                        <option value="PE1002">PE1002 Advance Human Resource Management 1</option>
+                        <option value="PE1003">PE1003 Insurance and Pensions</option>
+                        <option value="PE1004">PE1004 Organizational Behavior and Performance</option>
+                        <option value="PE2001">PE2001 Nigeria Labour Law</option>
+                        <option value="PE2002">PE2002 Advance Industrial Relations</option>
+                        <option value="PE2003">PE2003 Advance Human Resource Management 2</option>
+                        <option value="PE2004">PE2004 Labour Market Analysis</option>
+                    </select>
+                </label>
+                <label class="item item-input">
+                    <input ng-model="user.title" type="text" placeholder="Title" >
+                </label>
+                <label class="item item-input">
+                    <textarea ng-model="user.question" rows="5" placeholder="Question"></textarea>
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button  class="button button-royal  button-block" ng-click="add()" >Add Topic</button>
+    </form>
+
+    <div class="spacer" style="height: 40px;"></div>
+    <h4 id="home-heading2" style="color:#000000;">{{" "+info}}  </h4>
+    <ion-list id="home-list8">
+      <ion-item class="item-icon-right" id="home-list-item36" ng-click="pay()">{{" "+details.title0}}
+        <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item-icon-right" id="home-list-item38" ng-click="pay1()">{{" "+details.title1}}
+        <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item-icon-right" id="home-list-item39" ng-click="pay2()">{{" "+details.title2}}
+        <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item-icon-right" id="home-list-item40" ng-click="pay3()">{{" "+details.title3}} 
+        <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+        
+    </ion-content>
+</ion-view>

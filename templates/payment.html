@@ -1,0 +1,40 @@
+<ion-view title="Payment" id="page2">
+  <ion-content padding="true" class="has-header">
+    <form id="payment-form3" class="list">
+      <label class="item item-select" id="payment-select1" name="selectcourse">
+        <span class="input-label">Select Course</span>
+        <select ng-model="pack.packname">
+          <option value="gold">F1001 Introduction to Management</option>
+          <option value="silver">F1002 Writing and Communication Skills</option>
+          <option value="gold">F1003 Introduction to Economics</option>
+          <option value="silver">F1004 Introduction to Accounting</option>
+          <option value="gold">F1005 Fundamentals of psychology and Sociology</option>
+          <option>F2001 Introduction to Personnel Management and Industrial Relations</option>
+          <option>F2002 Nigeria Business Environment</option>
+          <option>F2003 Business Law</option>
+          <option>F2004 Computer Applications and Management Information System</option>
+          <option>F2005 Government and Nigeria Legal System</option>
+          <option>INT1001 Business Administration</option>
+          <option>INT1002 Advance Economics</option>
+          <option>INT1003 Accounting and Finance for Managers</option>
+          <option>INT1004 Business Statistics and Social Research Methods</option>
+          <option>INT2001 Training and Development</option>
+          <option>INT2002 Public Administration</option>
+          <option>INT2003 Manpower Planning</option>
+          <option>INT2004 Corporate Management and Administration</option>
+          <option>PE1001 Operational Research</option>
+          <option>PE1002 Advance Human Resource Management 1</option>
+          <option>PE1003 Insurance and Pensions</option>
+          <option>PE1004 Organizational Behavior and Performance</option>
+          <option>PE2001 Nigeria Labour Law</option>
+          <option>PE2002 Advance Industrial Relations</option>
+          <option>PE2003 Advance Human Resource Management 2</option>
+          <option>PE2004 Labour Market Analysis</option>
+        </select>
+      </label>
+      <div class="spacer" style="height: 40px;"></div>
+
+      <button ng-click="pay()" id="payment-button4" class="button button-royal  button-block">Pay</button>
+    </form>
+  </ion-content>
+</ion-view>

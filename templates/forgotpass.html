@@ -1,0 +1,16 @@
+<ion-view title="Forgot Password" id="page4">
+    <ion-content padding="'true'" class="has-header">
+        <form class="list" >
+            <ion-list>
+                You'll receive a mail to reset your password.
+                <label class="item item-input">
+                    <input ng-model="user.email" type="email" placeholder="Email" >
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button  class="button button-royal  button-block" ng-click="forgot()" >Send Mail</button>
+			
+            <a href="#/login"  class="button button-positive button-clear button-block ">Or Login</a>
+        </form>
+    </ion-content>
+</ion-view>

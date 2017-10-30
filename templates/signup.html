@@ -1,0 +1,31 @@
+<ion-view title="Signup" id="page5">
+  <ion-content padding="true" class="has-header">
+    <form id="signup-form2" class="list">
+        <label class="item item-input item-stacked-label" id="signup-input1" name="first_name">
+          <input type="text" ng-model="data.first_name" placeholder="First Name">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input2" name="last_name">
+          <input type="text" ng-model="data.last_name" placeholder="Last Name">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input3" name="phone">
+          <input type="phone" ng-model="data.phone" placeholder="Phone Number">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input4" name="email">
+          <input type="email" ng-model="data.email" placeholder="Email">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input5" name="password">
+          <input type="password" ng-model="data.password" placeholder="Password">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input6" name="city">
+          <input type="text" ng-model="data.city" placeholder="City">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input7" name="job">
+          <input type="text" ng-model="data.job" placeholder="Job">
+        </label>
+        <label class="item item-input item-stacked-label" id="signup-input8" name="state">
+          <input type="text" ng-model="data.state" placeholder="State">
+        </label>
+            <button ng-click="signup(data)" class="button button-royal  button-block">Sign up</button>
+    </form>
+  </ion-content>
+</ion-view>

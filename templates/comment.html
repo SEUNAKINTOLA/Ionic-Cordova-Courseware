@@ -1,0 +1,28 @@
+<ion-view title="Comments" id="page4">
+    <ion-content padding="'true'" class="has-header">
+    <div class="spacer" style="height: 40px;"></div>
+    <h4 id="home-heading2" style="color:#000000;">{{" "+inf}} </h4>
+
+        
+    <ion-list id="home-list8">
+      <ion-item class="item-icon-right" id="home-list-item36" >{{" "+detail.comment0}}
+      </ion-item>
+      <ion-item class="item-icon-right" id="home-list-item38" >{{" "+detail.comment1}}
+      </ion-item>
+      <ion-item class="item-icon-right" id="home-list-item39">{{" "+detail.comment2}}
+      </ion-item>
+      <ion-item class="item-icon-right" id="home-list-item40">{{" "+detail.comment3}} 
+      </ion-item>
+    </ion-list>
+        
+        <form class="list" >
+            <ion-list>
+                <label class="item item-input">
+                    <textarea ng-model="user.comment" rows="5" placeholder="type your comment here"></textarea>
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button  class="button button-royal  button-block" ng-click="add()" >Add Comment</button>
+        </form>
+    </ion-content>
+</ion-view>

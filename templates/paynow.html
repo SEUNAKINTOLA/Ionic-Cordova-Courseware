@@ -1,0 +1,45 @@
+<html>
+<head>
+
+</head>
+<body>
+<ion-view title="PayNow" id="page1">
+  <ion-content padding="true" class="has-header">
+      Package Name:  {{" "+packname}}
+
+      <br/>
+      Package Amount:   {{" "+packprice}}
+      <br/>
+      Your Name: {{""+fullname}}
+
+      <div>
+      
+      <form name="form1" action="https://secure.pactpay.com/order_review.php" method="post">
+<input type="hidden" name="name" id="name" ng-value="fullname">
+<input type="hidden" name="merchant_id" id="merchant_id" value="001">
+<input type="hidden" name="product_code" id="product_code" value="6">
+<input type="hidden" name="product_description" id="product_description" ng-value="packname">
+<input type="hidden" name="customer_id" id="customer_id" ng-value="email">
+<input type="hidden" name="customer_email" id="customer_email" ng-value="email">
+<input type="hidden" name="currency" id="currency" value="ngn">
+<input type="hidden" name="conv_fee" id="conv_fee" value="no">
+<input type="hidden" name="site_success_redirect_url" id="site_success_redirect_url" value="http://cipm.cloudserve.com.ng/APIs/pay.php">
+<input type="hidden" name="site_failed_redirect_url" id="site_failed_redirect_url" value="http://cipm.cloudserve.com.ng/APIs/pay.php">
+<input type="hidden" name="site_pending_redirect_url" id="site_pending_redirect_url" value="http://cipm.cloudserve.com.ng/APIs/pay.php">
+<input type="text" name="site_reference" id="site_reference" ng-value="site_reference">
+
+<input type="hidden" name="amount" id="amount" ng-value="packprice">
+<input type="submit" name="pay" id="pay" value="Pay Online Now"  ng-click="submitForm()" class="btn btn-danger" />
+<br/>
+
+
+
+</form>
+</div>
+
+  </ion-content>
+</ion-view>
+    
+
+</body>
+</html>

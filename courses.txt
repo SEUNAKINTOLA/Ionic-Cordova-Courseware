@@ -1,0 +1,31 @@
+F1001 Introduction to Management
+F1002 Writing and Communication Skills
+F1003 Introduction to Economics
+F1004 Introduction to Accounting
+F1005 Fundamentals of psychology and Sociology
+
+F2001 Introduction to Personnel Management and Industrial Relations
+F2002 Nigeria Business Environment
+F2003 Business Law
+F2004 Computer Applications and Management Information System
+F2005 Government and Nigeria Legal System
+
+INT1001 Business Administration
+INT1002 Advance Economics
+INT1003 Accounting and Finance for Managers
+INT1004 Business Statistics and Social Research Methods
+
+INT2001 Training and Development
+INT2002 Public Administration
+INT2003 Manpower Planning
+INT2004 Corporate Management and Administration
+
+PE1001 Operational Research
+PE1002 Advance Human Resource Management 1
+PE1003 Insurance and Pensions
+PE1004 Organizational Behavior and Performance
+
+PE2001 Nigeria Labour Law
+PE2002 Advance Industrial Relations
+PE2003 Advance Human Resource Management 2
+PE2004 Labour Market Analysis

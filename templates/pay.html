@@ -1,0 +1,23 @@
+<ion-view title="PayNow" id="page0">
+    <ion-content padding="true" class="has-header">
+        <div>
+            <form action="https://secure.pactpay.com/order_review.php" method="post"> 
+                <input type="hidden" name="name" id="name" value="Akinmade Akintoye"><br/> 
+                <input type="hidden" name="merchant_id" id="merchant_id" value="7"> 
+                <input type="hidden" name="merchant_website" id="merchant_website" value="test.pactpay.com"> 
+                <input type="hidden" name="product_code" id="product_code" value="18"> 
+                <input type="hidden" name="product_description" id="product_description" value="Test Product on Pactpay for this documentation"> 
+                <input type="hidden" name="customer_id" id="customer_id" value="CT_0045"  >
+                <input type="hidden" name="customer_email" id="customer_email" value="payments@cloudware.ng"><br/> 
+                <input type="hidden" name="currency" id="currency" value="ngn"> 
+                <input type="hidden" name="site_success_redirect_url" id="site_success_redirect_url" value="http://127.0.0.1/course/APIs/pay.php"> 
+                <input type="hidden" name="site_failed_redirect_url" id="site_failed_redirect_url" value="http://127.0.0.1/course/APIs/pay.php"> 
+                <input type="hidden" name="site_pending_redirect_url" id="site_pending_redirect_url" value="http://127.0.0.1/course/APIs/pay.php"> 
+                <input type="hidden" name="site_reference" id="site_reference" value="0927496a2"> 
+                <input type="hidden" name="conv_fee" id="conv_fee" value="no">  
+                <input type="hidden" name="amount" id="amount"  value=””> 
+                <input type="submit" name="pay" id="pay" value="Pay Onine now!" > 
+            </form> 
+        </div>  
+    </ion-content>
+</ion-view>

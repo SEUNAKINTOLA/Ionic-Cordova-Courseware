@@ -1,0 +1,36 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-royal">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-header-bar class="bar-calm">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <ion-list id="menu-list1">
+        <ion-item class="item-icon-left item-icon-right" id="menu-list-item1" ui-sref="menu.home" menu-close="">
+          <i class="icon ion-android-home"></i>Home
+          <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+        </ion-item>
+        <ion-item class="item-icon-left item-icon-right" id="menu-list-item2" ui-sref="menu.payment" menu-close="">
+          <i class="icon ion-android-cart"></i>Payment
+          <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+        </ion-item>
+        <ion-item class="item-icon-left item-icon-right" id="menu-list-item2" ui-sref="menu.addforum" menu-close="">
+          <i class="icon ion-android-chat"></i>Forum
+          <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+        </ion-item>
+          <ion-item class="item-icon-left item-icon-right" id="menu-list-item3" ng-click="logout()" menu-close="">
+          <i class="icon ion-android-exit"></i>Log out
+          <i class="icon ion-android-arrow-dropright icon-accessory"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
